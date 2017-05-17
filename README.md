@@ -15,6 +15,19 @@ Run in the command line the setup file.
 
 ## Step 4
 Run the main script 
+
+For production with both dev and training
+python ne.py
+
+For running on the dev set, run:
+python ne.py --dev 
+
+For running on the dev set with CV, run:
+python ne.py --dev --cv
+
+For running on the dev set with details on errors, run:
+python ne.py --dev --details
+
 usage: ne.py [-h] [--dev] [--cv] [--details]
 
 optional arguments:
