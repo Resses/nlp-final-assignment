@@ -57,7 +57,7 @@ dev_data, dev_labels = read_file('data/dev/dev.txt')
 test_data = read_no_labels('data/test/test.nolabels.txt')
 
 ######## READ LIST OF NAMES AND ENTITIES #########
-with open("data/train/eng.list", encoding='utf-8') as f:
+with open("data/train/eng.list") as f:
     eng_data = []
     for line in f.read().splitlines():
         if line != '':
@@ -69,7 +69,7 @@ def read_names():
     name_data = set([])
 
     def read_names_files(filename):
-        with open(filename, encoding='utf-8') as f:
+        with open(filename) as f:
             #f.read() # Get rid of the header
             for line in f.read().splitlines():
                 if line != '':
