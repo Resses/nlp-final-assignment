@@ -18,8 +18,7 @@ Run the main script
 usage: ne.py [-h] [--dev] [--cv] [--details]
 
 optional arguments:
-  -h, --help  show this help message and exit
-  --dev       Flag that determines whether to use training and dev set
-              together or not.
-  --cv        Flag that determines whether to do cross validation.
-  --details   Flag that determines whether to show details of mismatches.
+-h, --help  show this help message and exit
+--dev       Flag that determines whether to use training and dev set together or not.
+--cv        Flag that determines whether to do cross validation.
+--details   Flag that determines whether to show details of mismatches.
